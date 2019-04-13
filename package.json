@@ -1,0 +1,39 @@
+{
+  "name": "clicky-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisuBeibei/CLicky-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisuBeibei/CLicky-Game/issues"
+  },
+  "homepage": "https://github.com/MisuBeibei/CLicky-Game#readme",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^2.1.8",
+    "start": "^5.1.0"
+  }
+}
